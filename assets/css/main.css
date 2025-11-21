@@ -1,0 +1,36 @@
+@import url(./reset.css); 
+@import url(./components/cards.css);
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+.blog {
+  padding: 40px 0px 100px;
+  background-color: #0e1626;
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+
+.blog__inner {
+  width: 100%;
+  max-width: none;
+  padding: 0 32px;
+  margin: 0;
+
+}
+
+.blog__header {
+  margin-bottom: 48px;
+}
+
+.blog__title {
+  font-size: 36px;
+  font-weight: 500;
+  margin: 0 0 12px;
+}
+
+.blog__subtitle {
+  font-size: 16px;
+  color: #9ca3af;
+  margin: 0;
+}
+
