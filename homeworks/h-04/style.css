@@ -1,0 +1,26 @@
+
+.test__p {
+    margin: 0;
+    color: #fff;
+    background-color: green;
+    width: 200px;
+    text-align: center;
+}
+
+.bg-black {
+    color: #fff;
+    background-color: red;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+
+.test__p > .bg-black {
+    background-color: blue;
+}
+
+.test__p ~ .bg-black {
+    background-color: purple;
+}
+
